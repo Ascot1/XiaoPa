@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">校趴</string>
+    <string name="username">请输入账号</string>
+    <string name="password">请输入密码</string>
+    <string name="remember">记住密码</string>
+    <string name="register">免费注册</string>
+    <string name="opening_wechat">正在打开微信，请稍等</string>
+    <string name="opening_qq">正在打开QQ，请稍等</string>
+    <string name="opening_blog">正在打开新浪微博，请稍等</string>
+    <string name="group_chat">群聊</string>
+    <string name="add">添加</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="Class_FriendShip">班级联谊</string>
+    <string name="Club_Party">社团聚会</string>
+    <string name="Personal_Dating">个人交友</string>
+    <string name="Male">♂</string>
+    <string name="Female">♀</string>
+    <string name="NickName">昵称:</string>
+    <string name="TEL">手机号:</string>
+    <string name="Register">注   册</string>
+    <string name="Hint1">请输入手机号</string>
+    <string name="Tint2">建议使用真实姓名</string>
+    <string name="VerCode">验证码</string>
+    <string name="GetVerCode">获取验证码</string>
+    <string name="Password">密码:</string>
+    <string name="hint3">请输入密码</string>
+    <string name="Choice_University">请输入院校</string>
+    <string name="Choice_college">请输入学院</string>
+    <string name="Choice_major">请输入专业</string>
+    <string name="Data">请选择出生年月日</string>
+    <string name="ClassSumarry">发起或寻找班级联谊，匹配成功后，自由选择活动方案进行联谊，
+        轻松快捷的举行联谊盛会，使同学们感受班级与班级之间的活跃气息和班级之间的友情，
+        丰富课余生活，还可能遇见你生命中的那个他或她哟！</string>
+    <string name="AssnSumarry">发起或寻找社团联谊，匹配成功后，自由选择活动方案进行联谊，
+        轻松快捷的举行联谊盛会，加强社团之间的协作能力，增进同学间的友谊，丰富大学生活，
+        还能提高脱单率哟！</string>
+    <string name="PersonalSumarry">发起或寻找个人联谊，通过验证后，可以在线上聊天互动，
+        增进彼此间的了解，也可以选择我们的联谊方案进行线下的互动联谊，帮你快速结交更多的朋友，
+        扩大交际圈，还能脱单哟！</string>
+    <string name="Activity_Sumarry">
+        1、参加人员报名时间截止到11月3日上午11:30分 　　
+        2、11月4日上午出发。 时间安排： 9：30 五邑大学南门准时集合 ，11点到达目的地(圭峰山烧烤场) ，14点开始玩游戏，16点合影留念，然后返校
+        四、游戏规则和名称
+ （1）　游戏名称：两人三足踩气球 　　游戏规则：每一队6人分成3个小组，每组男女各一名，每个脚上绑2个气球，互相踩对方的气球并防止自己的气球不被踩破，自己队的三个组要团结起来，一起努力踩别人队里的气球。30秒后，脚上气球最少的那两个人受到惩罚。(每次2个队比) 　　
+（2）游戏名称：猜数字 　　游戏规则：某人说一目标数字(1到100之间)，告知主持人，然后开始击鼓传黑板檫，鼓停时，拿黑板檫的人猜一个数字，主持人告知此数字比目标数字大还是小，然后继续传，下个人只能在前面说过的范围里面猜，直到最后必有人猜中，猜中的人就要受到惩罚。 　　
+（3）游戏名称：泡泡糖 　　游戏规则：主持人召集若干人上台，人数最好是奇数，当大家准备好时，主持人喊“泡泡糖”大家要回应“粘什么”，主持人随机想到身体的某个部位，台上的人就要两人一组互相接触主持人说的部位。比如，主持人说左脚心，那么台上的人就要两人一组把左脚心相接触。而没有找到同伴的人被淘汰出局，并受到惩罚，最后剩下的两人胜出。 　　
+（4）游戏名称：领头羊 　　游戏规则：每个队自己玩，一个人转过头,下面的人其中要选一个来做动作,然后大家一起做这个动作,再让那个转身的同学来猜,这个动作是谁做的.这个游戏是靠人与人之间的默契的哦!猜错的受到惩罚，惩罚方法由自己队内定!
+ 五、活动经费预算 　　
+1、烧烤炉单价：租中炉(8-10人)，70元/个(送炭4斤，网1张) ，租4个，280 　　
+2、食物：鸡翅膀3个/人、香肠5条/人、肉丸子(猪肉、牛肉)10个/人、1条/人，是否要加羊肉串或者其它食物再定;预算15元/人。
+3、用具：一次性碗、杯子、手套、筷子(竹签)和烧烤刷、纸巾、烧烤纸;预算费用为2.5元/人。 　　
+4、饮料：可口可乐、矿泉水(桶装);预算费用为2元/人。 　
+5、配料：烧烤汁5元/瓶*4瓶=20元 盐2元/袋*4袋=8元 油20元/桶*2桶= 40元 蜂蜜5元/瓶*4瓶=20元 辣椒油5元/瓶*4瓶=20元
+6、气球20个，泡泡糖10个，一共30元
+六、注意事项 　　
+1、集合要求整齐有序,活动时要注意安全。 　　
+2、维护学校形象，不得在公共场所乱丢果皮、垃圾、攀摘花木。 　　
+3、一切事情听指挥，如有事情必须先报告，手机保持开机，方便联系。 　　
+4、不得搞浪费,烤熟再食,不得暴饮暴食，注意饮食卫生。 　　
+5、活动结束后找出不足的地方，写出总结，为下次活动积累经验。根据干事的意见和观察，讨论总结此次活动的经验教训，提高协会活动的组织能力。 　　
+</string>
+</resources>
