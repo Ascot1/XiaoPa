@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\libs\ShareSDK-Wechat-Moments-2.8.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="415c1cb912f11e414e6beaf1e59090c154f6da8d">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-2.8.3_2f84332c177778fbe12167cbfc2675802da241d9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\libs\ShareSDK-SinaWeibo-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23b18b312360535b71c0702b842da81fbadcdba3">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-SinaWeibo-2.8.3_6befdae561de908c1a634098c2b04c068cb6d659\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\libs\MobTools-2017.0412.1554.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ff1c0540ed5607fa34269a7adc63679e4fcfb714">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\pre-dexed\debug\MobTools-2017.0412.1554_58920b3e05d6935a33256090962e97e1bbe03fc3.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\libs\ShareSDK-Core-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da4b0def0be4d4be0d3460638e087d01f60347c0">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Core-2.8.3_81eeeed904bfd66e9b1762f93a0c8392a4e1fb45\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\libs\MobTools-2017.0412.1554.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ff1c0540ed5607fa34269a7adc63679e4fcfb714">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\transforms\dex\debug\folders\1000\2\MobTools-2017.0412.1554_58920b3e05d6935a33256090962e97e1bbe03fc3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\libs\ShareSDK-Wechat-Moments-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="415c1cb912f11e414e6beaf1e59090c154f6da8d">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Moments-2.8.3_2f84332c177778fbe12167cbfc2675802da241d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\libs\ShareSDK-QQ-2.8.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="56808c93d53310bb7e5d79a1a5709dfd2c11d532">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\pre-dexed\debug\ShareSDK-QQ-2.8.3_27942bf04a8adeccee2ed1d479dd0220b1ab425a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\libs\ShareSDK-Wechat-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6c77dd3832635149e694df173896f81e1e2d07aa">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-2.8.3_29dc8e19fc84fa7c8b7e78148d69d076b0eef51c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\libs\MobCommons-2017.0412.1554.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f93319b520c12b41265a55d1ccacde97b9f18a9c">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\pre-dexed\debug\MobCommons-2017.0412.1554_345ca4768f0e935b8fb506e7be5a5412f186f93a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\libs\ShareSDK-Wechat-Core-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d3d26aac0c67984e4612539017f7a5f4bd6507">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Core-2.8.3_b55089efd713f981ca2ac34b1b28a147d2974339\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\libs\ShareSDK-Wechat-2.8.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6c77dd3832635149e694df173896f81e1e2d07aa">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-2.8.3_29dc8e19fc84fa7c8b7e78148d69d076b0eef51c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6eb3595120af5607a8817aeb6c7d68f45c166985">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_2d3469e3678219f9f67896a39953aee458ff09f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\libs\ShareSDK-Wechat-Core-2.8.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d3d26aac0c67984e4612539017f7a5f4bd6507">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Core-2.8.3_b55089efd713f981ca2ac34b1b28a147d2974339.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\libs\ShareSDK-Wechat-Favorite-2.8.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0be6c30c87d2213d57d60adf04d4567639603070">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Favorite-2.8.3_2df73211c1ad006ec0ff2d9c29ad43cd109c1f42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\libs\ShareSDK-SinaWeibo-2.8.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23b18b312360535b71c0702b842da81fbadcdba3">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-2.8.3_6befdae561de908c1a634098c2b04c068cb6d659.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\libs\ShareSDK-Core-2.8.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da4b0def0be4d4be0d3460638e087d01f60347c0">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\pre-dexed\debug\ShareSDK-Core-2.8.3_81eeeed904bfd66e9b1762f93a0c8392a4e1fb45.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\libs\ShareSDK-Wechat-Favorite-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0be6c30c87d2213d57d60adf04d4567639603070">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Favorite-2.8.3_2df73211c1ad006ec0ff2d9c29ad43cd109c1f42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_36bd0225b6b49e5fb65495c49be9faf0153ccbec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\libs\MobCommons-2017.0412.1554.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f93319b520c12b41265a55d1ccacde97b9f18a9c">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\transforms\dex\debug\folders\1000\2\MobCommons-2017.0412.1554_345ca4768f0e935b8fb506e7be5a5412f186f93a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\libs\ShareSDK-QQ-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="56808c93d53310bb7e5d79a1a5709dfd2c11d532">
+        <dex dex="C:\Users\Ivan.DESKTOP-QJKHS94\AndroidStudioProjects\LoginAndGroupChat\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-QQ-2.8.3_27942bf04a8adeccee2ed1d479dd0220b1ab425a\classes.dex" />
+    </item>
+
+</items>
