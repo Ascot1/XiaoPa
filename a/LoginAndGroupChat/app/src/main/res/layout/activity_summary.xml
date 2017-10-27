@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="活动一"
+                    android:textColor="@color/Black"
+                    android:textSize="28sp" />
+
+                <Button
+                    android:id="@+id/JoinIn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:background="@drawable/shape_surebutton"
+                    android:gravity="center"
+                    android:text="加入活动"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="活动介绍"
+                    android:textColor="@color/orange"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="用户评论"
+                    android:textColor="@color/orange"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="图片展示"
+                    android:textColor="@color/orange"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="活动介绍"
+                android:textSize="20sp" />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="360dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@drawable/shape_eidt"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="@string/Activity_Sumarry"
+                        android:textColor="@color/Black" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/shape_eidt"
+    android:weightSum="1">
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_weight="0.1"
+        android:layout_height="41dp"
+        android:src="@drawable/emoji"
+        android:layout_gravity="bottom"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="0dp"
+        android:layout_weight="0.65"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:hint="请输入内容" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_weight="0.25"
+        android:layout_height="wrap_content"
+        android:text="发送"
+        android:layout_gravity="bottom"
+        android:textColor="@color/colorPrimary"
+        />
+</LinearLayout>
+</LinearLayout>
