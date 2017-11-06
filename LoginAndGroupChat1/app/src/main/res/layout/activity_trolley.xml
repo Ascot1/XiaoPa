@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="15"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:background="#ff6600"
+        >
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="返回"
+            android:id="@+id/button"
+            android:background="@drawable/back"
+            android:onClick="onReturn"
+        />
+<TextView
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:paddingBottom="2dp"
+    android:layout_width="40dp"
+    android:layout_height="35dp"
+    android:textSize="18sp"
+    android:text="返回"
+    android:onClick="onBack"
+    android:textColor="#FFFFFF"
+    />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="购物车"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:paddingRight="60dp"
+            android:textColor="#FFFFFF"
+            />
+    </LinearLayout>
+<android.support.v4.widget.SwipeRefreshLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="12"
+    android:id="@+id/swipeRefreshLayout"
+    >
+
+    <!--<com.base.xiaopa.DeleteRecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="13"
+        android:id="@+id/shopcar"/>-->
+
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:id="@+id/shopcar"
+    android:background="#EDEDED"
+    />
+
+
+
+</android.support.v4.widget.SwipeRefreshLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:background="#FFFFFF"
+        android:weightSum="10"
+        >
+        <CheckBox
+            android:id="@+id/qcheckbox"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/checkbox_selector"
+            android:button="@null"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="全选"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:paddingRight="10dp"
+
+            />
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="3"
+             android:gravity="center"
+             android:text="合计:"
+             android:textSize="20sp"
+
+             android:paddingLeft="40dp"
+             android:textColor="#000000"
+             />
+        <TextView
+            android:id="@+id/tv_sumprice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:text="¥25"
+            android:textSize="20sp"
+           android:paddingRight="20dp"
+            android:textColor="#FF0000"
+            android:gravity="center"
+            />
+
+          <Button
+              android:id="@+id/jiesuan"
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="2.5"
+              android:text="结算"
+              android:textSize="20sp"
+                android:textColor="#FFFFFF"
+              android:background="#ff6600"
+
+              />
+
+
+    </LinearLayout>
+
+</LinearLayout>

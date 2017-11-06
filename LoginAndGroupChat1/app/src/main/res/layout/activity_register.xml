@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/app_name"
+   >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/HeadPortrait"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/male"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp"
+            app:riv_oval="true"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Male"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/shape_sex"
+                android:text="@string/Male"
+                android:textColor="@color/Blue"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/Female"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/shape_sex"
+                android:text="@string/Female"
+                android:textColor="@color/grey"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/Text_Name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/shape_eidt"
+        android:drawableLeft="@drawable/nick_name"
+        android:inputType="text"
+        android:hint="@string/Tint2"
+        android:maxLines="1"
+        android:imeOptions="actionNext"
+        android:nextFocusForward="@+id/et_express_receiver_address">
+    </EditText>
+
+
+
+    <EditText
+        android:id="@+id/Text_TEL"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/shape_eidt"
+        android:drawableLeft="@drawable/phone"
+        android:maxLength="11"
+        android:hint="@string/Hint1"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:imeOptions="actionNext"
+        android:nextFocusForward="@+id/et_express_receiver_address"/>
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14sp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/shape_eidt"
+        android:drawableLeft="@drawable/password"
+        android:hint="@string/hint3"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:imeOptions="actionNext"
+        android:nextFocusForward="@+id/et_express_receiver_address"/>
+
+
+    <AutoCompleteTextView
+        android:id="@+id/select_school"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8sp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/shape_eidt"
+        android:drawableLeft="@drawable/school"
+        android:hint="@string/Choice_University"
+        android:inputType="textAutoComplete"
+        android:maxLines="1"
+        android:imeOptions="actionNext"
+        android:nextFocusForward="@+id/et_express_receiver_address"/>
+
+    <EditText
+        android:id="@+id/college"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14sp"
+        android:layout_marginLeft="60dp"
+        android:inputType="text"
+        android:layout_weight="0.12"
+        android:background="@drawable/shape_eidt"
+        android:drawableLeft="@drawable/institute"
+        android:hint="@string/Choice_college" />
+
+    <EditText
+        android:id="@+id/major"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14sp"
+        android:layout_marginLeft="60dp"
+        android:layout_weight="0.12"
+        android:background="@drawable/shape_eidt"
+        android:drawableLeft="@drawable/major"
+        android:hint="@string/Choice_major"
+        android:inputType="text"
+        android:maxLines="1"
+        android:imeOptions="actionNext"
+        android:nextFocusForward="@+id/et_express_receiver_address"/>
+
+    <TextView
+        android:id="@+id/Text_Date"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/shape_eidt"
+        android:drawableLeft="@drawable/date"
+        android:gravity="center_vertical"
+        android:hint="@string/Data"
+        android:textSize="18sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/Text_Verification"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/translucent"
+            android:gravity="fill_horizontal"
+            android:inputType="textAutoComplete"
+            android:hint="@string/VerCode"
+            android:maxLines="1"
+           android:imeOptions="actionDone"
+            android:nextFocusForward="@+id/et_express_receiver_address"/>
+
+        <Button
+            android:id="@+id/Verification"
+            android:layout_width="115dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+
+            android:background="@drawable/shape_get"
+            android:text="@string/GetVerCode"
+            android:textSize="19sp"
+            android:layout_weight="0.34" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/shape_rectangle"
+        android:text="@string/Register"
+        android:textSize="20sp" />
+</LinearLayout>
+</ScrollView>

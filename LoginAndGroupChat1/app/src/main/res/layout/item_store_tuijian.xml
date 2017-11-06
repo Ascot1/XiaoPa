@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:background="@drawable/tj_background"
+    >
+    <ImageView
+        android:id="@+id/tjhead"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/caidai"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        >
+        <TextView
+            android:id="@+id/tjname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="雪纱彩带"
+            android:textSize="15sp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+        <TextView
+            android:id="@+id/tjprice"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="￥3.29"
+            android:textColor="#E60012"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:id="@+id/tjnumber"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="3590人已购买"
+            android:textSize="13sp"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
